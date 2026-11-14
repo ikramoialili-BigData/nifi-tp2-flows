@@ -1874,7 +1874,8 @@
       },
       "properties" : {
         "Store State" : "Do not store state",
-        "Cache Value Lookup Cache Size" : "100"
+        "Cache Value Lookup Cache Size" : "100",
+        "motif" : "schema"
       },
       "propertyDescriptors" : {
         "Delete Attributes Expression" : {
@@ -1896,6 +1897,13 @@
           "dynamic" : false,
           "identifiesControllerService" : false,
           "name" : "Cache Value Lookup Cache Size",
+          "sensitive" : false
+        },
+        "motif" : {
+          "displayName" : "motif",
+          "dynamic" : true,
+          "identifiesControllerService" : false,
+          "name" : "motif",
           "sensitive" : false
         },
         "Stateful Variables Initial Value" : {
@@ -3798,6 +3806,6 @@
   "snapshotMetadata" : {
     "author" : "2fe8061f-8590-41ac-8705-27b1ee56ae1f",
     "flowIdentifier" : "ingestion-cars",
-    "timestamp" : 1794670800758
+    "timestamp" : 1794685165805
   }
 }
